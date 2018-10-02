@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: bharatchopra/multi-client
+      image: bharatchopra/multi-client:1.0.1
       ports:
         - containerPort: 3000
